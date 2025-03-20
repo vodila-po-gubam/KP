@@ -99,16 +99,22 @@ main{
 }
 #dati{
     display: inline-flex;
+    margin-top: 2%;
 }
 #date1{
     display: inline-flex;
+    height: min-content;
+}
+#date1 input{
+    font-size: 16px;
+    margin-left: 15%;
 }
 #date1 p{
     margin-top: 3%;
-    margin-left: 20%;
+    margin-left: 5%;
     color: white;
-    font-size: 24px;
-    width: 23%;
+    font-size: 21px;
+    width: 40%;
 }
 #bron h1{
     color: white;
@@ -128,12 +134,16 @@ main{
 #date2{
     display: inline-flex;
 }
+#date2 input{
+    font-size: 16px;
+    margin-left: 15%;
+}
 #date2 p{
     margin-top: 3%;
-    margin-left: 20%;
+    margin-left: 5%;
     color: white;
-    font-size: 24px;
-    width: 23%;
+    font-size: 21px;
+    width: 40%;
 }
 #datev{
     width: 30%;
@@ -142,14 +152,4 @@ main{
     border-radius: 10px;
     background-color: rgb(65, 65, 65);
     color: white;
-}
-#chel{
-    width: 30%;
-    border-radius: 10px;
-    background-color: rgb(65, 65, 65);
-    margin-left: 30%;
-    margin-top: 3%;
-    font-size: 26px;
-    color: white;
-    text-align: center;
 }
