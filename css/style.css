@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    width: 100%;
+}
+header{
+    border: 0px solid rgb(123, 156, 115);
+    background-color: rgb(123, 156, 115);
+    display:flex;
+    z-index: 0;
+    border-bottom: 5px solid rgb(37, 37, 37);
+}
+header img{
+    width: 15%;
+    margin-left: 30%;
+    margin-top: 2%;
+    display:line;
+    transition: 0.7s;
+}
+#tlogo img:hover{
+    width: 16%;
+    margin-left: 29%;
+}
+#topl a{
+    display:line;
+    background-color: rgb(123, 156, 115);
+    width: 10%;
+    font-size: 62px;
+    transition: all .5s;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+#topl a:hover{
+  font-size: 65px;
+}
+#topl a:visited{
+    color: white;
+}
+#topl a:link{
+    color: white;
+}
+#vhod{
+    width: 15%;
+    height: 10%;
+    margin: 1%;
+    margin-top: 3%;
+    font-size: 32px;
+    text-decoration: none;
+    border: 0px solid white ;
+    border-radius: 10px;
+    background-color: rgb(197, 197, 197);
+    color: black;
+    text-align: center;
+    transition: all .5s;
+    z-index: 10;
+    display: line;
+}
+#registr{
+    width: 15%;
+    height: 10%;
+    margin: 1%;
+    margin-top: 3%;
+    font-size: 32px;
+    text-decoration: none;
+    border: 0px solid white ;
+    border-radius: 10px;
+    background-color: rgb(197, 197, 197);
+    color: black;
+    text-align: center;
+    transition: all .5s;
+    z-index: 10;
+    display: line;
+}
+#registr:hover{
+    background-color: rgb(76, 97, 71);
+    color: white;
+    width: 20%;
+    z-index: 10;
+    display: line;
+}
+#vhod:hover{
+    background-color: rgb(76, 97, 71);
+    color: white;
+    width: 20%;
+    z-index: 10;
+    display: line;
+}
+#slogan{
+    background-color: rgb(51, 69, 49);
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 5px solid rgb(37, 37, 37);
+}
+#slogan h2{
+    margin-bottom: 1%;
+}
+#opis{
+    background-color: rgb(123, 156, 115);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 5px solid rgb(37, 37, 37);
+}
+#opis h2{
+    width: 95%;
+    margin-left: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+#nasi{
+    background-color: rgb(51, 69, 49);
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid rgb(37, 37, 37);
+}   
+#nomera{
+    background-color: rgb(123, 156, 115);
+    
+    padding: 1%;
+    width: 98%;
+}
+#nomera2{
+    
+    margin-left: 1%;
+}
+#nomera a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  
+}
+#nom1{
+    width: 15%;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(51, 69, 49);
+    transition: all 0.6s;
+    display:inline-flex;
+    margin-left: 1%;
+}
+#nom1 img{
+    border-radius: 5px;
+}
+
+#nom1 p{
+    font-size: 26px;
+}
+#nom1:hover{
+    width: 15.5%;
+}
+#nom2{
+    width: 15%;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(51, 69, 49);
+    transition: all 0.6s;
+    display:inline-flex;
+    margin-left: 4%;
+}
+#nom2 img{
+    border-radius: 5px;
+}
+
+#nom2 p{
+    font-size: 26px;
+}
+#nom2:hover{
+    width: 15.5%;
+}
+#nom3{
+    width: 15%;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(51, 69, 49);
+    transition: all 0.6s;
+    display:inline-flex;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+#nom3 img{
+    border-radius: 5px;
+}
+
+#nom3 p{
+    font-size: 26px;
+}
+#nom3:hover{
+    width: 15.5%;
+}
+#nom4{
+    width: 15%;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(51, 69, 49);
+    transition: all 0.6s;
+    display:inline-flex;
+    margin-left: 4%;
+}
+#nom4 img{
+    border-radius: 5px;
+}
+
+#nom4 p{
+    font-size: 26px;
+}
+#nom4:hover{
+    width: 15.5%;
+}
+footer{
+    background-color: rgb(51, 69, 49);
+    padding: 1% ;
+    width: 98%;
+    display:flexbox;
+}
+#fp img{
+    width: 25%;
+    margin-right: 5%;
+    height: min-content;
+}
+#fp{
+    width: 100%;
+    color: white;
+    transition: all 0.7s;
+    display: flex;
+    height: min-content;
+}
+#fp1{
+    width: 18%;
+    height: min-content;
+    font-size: 24px;
+    color:white;
+    text-decoration: none;
+}
+#fp div{
+    width: 80%;
+}
+#tg a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.7s;
+    width: 20%;
+}
+#fp a:hover{
+    color: rgb(0, 0, 0);
+}
+#tg{
+    width: 7%;
+
+    padding-left: 10%;
+    height: min-content;
+}
+#tg img{
+    width: 100%;
+    transition: 0.7s;
+    padding-left: 5%;
+    height: min-content;
+}
+#tg img:hover{
+    width: 106%;
+}
+#maile img{
+    width: 20%;
+    margin-right: 5%;
+}
+#mail{
+    width: 100%;
+    color: white;
+    transition: all 0.7s;
+    margin-top: 1%;
+    display: flex;
+    margin-left: .5%;
+}
+#mail div{
+    width: 90%;
+}
+#maile{
+    width: 20%;
+    height: min-content;
+}
+#odn img{
+    width: 90%;
+    align-items: end;
+    justify-content: end;
+    transition: 0.7s;
+}
+#odn{
+    width: 5%;
+    margin-right: .8%;
+}
+#odn img:hover{
+    width: 103%;
+}
+#mail a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.7s;
+}
+#mail a:hover{
+    color: rgb(0, 0, 0);
+}
+#phona img{
+    width: 23%;
+    margin-right: 5%;
+}
+#phone{
+    width: 100%;
+    color: white;
+    transition: all 0.7s;
+    margin-top: 1%;
+    display: flex;
+}
+#phona{
+    color: white;
+    width: 35%;
+    height: min-content;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.7s;
+    margin-left: .5%;
+}
+#phona:hover{
+    color: rgb(0, 0, 0);
+   
+}
+#phone:hover{
+    width: 100%;
+}
+#flogo img{
+    width:98%;
+    transition: 0.7s;
+}
+#flogo{
+    display: inline-flexbox;
+    align-items: center;
+    transition: 0.7s;
+    width: 30%;
+}
+#flogo img:hover{
+    width: 100%;
+    
+}
+#vk img{
+    width: 100%;
+    margin-right: 20%;
+    transition: 0.7s;
+}
+#vk img:hover{
+    width: 105%;
+}
+#vk{
+    width: 10%;
+    height: min-content;
+    margin-right: .8%;
+}
+#sp1{
+    width: 80%;
+}
