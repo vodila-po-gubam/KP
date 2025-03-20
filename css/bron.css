@@ -86,16 +86,16 @@ header img{
 }
 main{
     background-color: rgb(76, 97, 71);
-    height: 600px;
     padding-top: 1%;
+    padding-bottom: 3%;
 }
 #bron{
     width: 40%;
     margin-left: 30%;
     background-color: rgb(123, 156, 115);
-    height: 550px;
     border: 5px solid white;
     border-radius: 10px;
+    padding-bottom: 1%;
 }
 #dati{
     display: inline-flex;
@@ -107,11 +107,12 @@ main{
 }
 #date1 input{
     font-size: 16px;
-    margin-left: 15%;
+    margin-left: 8%;
+    border: 3px solid white;
 }
 #date1 p{
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 10%;
     color: white;
     font-size: 21px;
     width: 40%;
@@ -137,6 +138,7 @@ main{
 #date2 input{
     font-size: 16px;
     margin-left: 15%;
+    border: 3px solid white;
 }
 #date2 p{
     margin-top: 3%;
@@ -152,4 +154,292 @@ main{
     border-radius: 10px;
     background-color: rgb(65, 65, 65);
     color: white;
+}
+#chel{
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(65, 65, 65);
+    margin-top: 3%;
+    margin-left: 25%;
+    color: white;
+    border: 3px solid white;
+}
+#chel::placeholder{
+    color: white;
+}
+#nomc{
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(65, 65, 65);
+    margin-top: 3%;
+    margin-left: 25%;
+    color: white;
+    border: 3px solid white;
+}
+#nomc::placeholder{
+    color: white;
+}
+#opts{
+    color: white;
+    font-size: 30px;
+    border: 3px solid white;
+    width: 45%;
+    margin-left: 25.5%;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 3%;
+}
+#opts p{
+    margin-top: 1%;
+}
+#first{
+    display: inline-flex;
+    transition: 0.5s;
+}
+#first input{
+    width: 10%;
+    font-size: 1px;
+    border-radius: 100px;
+    background-color: rgb(65, 65, 65);
+}
+#first:hover{
+    border-bottom: 1px solid black;
+}
+#sec{
+    display: inline-flex;
+    transition: 0.5s;
+}
+#sec input{
+    width: 10%;
+    font-size: 10px;
+    background-color: rgb(65, 65, 65);
+}
+#sec:hover{
+    border-bottom: 1px solid black;
+}
+#thre{
+    display: inline-flex;
+    transition: 0.5s;
+}
+#thre input{
+    width: 10%;
+    font-size: 10px;
+    background-color: rgb(65, 65, 65);
+}
+#thre:hover{
+    border-bottom: 1px solid black;
+}
+#four{
+    display: inline-flex;
+    transition: 0.5s;
+}
+#four input{
+    width: 10%;
+    font-size: 10px;
+    background-color: rgb(65, 65, 65);
+}
+#four:hover{
+    border-bottom: 1px solid black;
+}
+#five{
+    display: inline-flex;
+    transition: 0.5s;
+}
+#five input{
+    width: 10%;
+    font-size: 10px;
+    background-color: rgb(65, 65, 65);
+}
+#five:hover{
+    border-bottom: 1px solid black;
+}
+#six{
+    display: inline-flex;
+    transition: 0.5s;
+}
+#six input{
+    width: 10%;
+    font-size: 10px;
+    background-color: rgb(65, 65, 65);
+}
+#six:hover{
+    border-bottom: 1px solid black;
+}
+#btn{
+    margin-top: 3%;
+    width: 50%;
+    margin-left: 21%;
+}
+#bbron{
+    font-size: 36px;
+    margin-top: 3%;
+    border: 3px solid white;
+    margin-top: 3%;
+    transition: 0.7s;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#bbron:hover{
+    background-color: rgb(54, 66, 51);
+}
+footer{
+    background-color: rgb(51, 69, 49);
+    padding: 1% ;
+    width: 98%;
+    display:flexbox;
+}
+#fp img{
+    width: 25%;
+    margin-right: 5%;
+    height: min-content;
+}
+#fp{
+    width: 100%;
+    color: white;
+    transition: all 0.7s;
+    display: flex;
+    height: min-content;
+}
+#fp1{
+    width: 18%;
+    height: min-content;
+    font-size: 24px;
+    color:white;
+    text-decoration: none;
+}
+#fp div{
+    width: 80%;
+}
+#tg a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.7s;
+    width: 20%;
+}
+#fp a:hover{
+    color: rgb(0, 0, 0);
+}
+#tg{
+    width: 7%;
+
+    padding-left: 10%;
+    height: min-content;
+}
+#tg img{
+    width: 100%;
+    transition: 0.7s;
+    padding-left: 5%;
+    height: min-content;
+}
+#tg img:hover{
+    width: 106%;
+}
+#maile img{
+    width: 20%;
+    margin-right: 5%;
+}
+#mail{
+    width: 100%;
+    color: white;
+    transition: all 0.7s;
+    margin-top: 1%;
+    display: flex;
+    margin-left: .5%;
+}
+#mail div{
+    width: 90%;
+}
+#maile{
+    width: 20%;
+    height: min-content;
+}
+#odn img{
+    width: 90%;
+    align-items: end;
+    justify-content: end;
+    transition: 0.7s;
+}
+#odn{
+    width: 5%;
+    margin-right: .8%;
+}
+#odn img:hover{
+    width: 103%;
+}
+#mail a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.7s;
+}
+#mail a:hover{
+    color: rgb(0, 0, 0);
+}
+#phona img{
+    width: 23%;
+    margin-right: 5%;
+}
+#phone{
+    width: 100%;
+    color: white;
+    transition: all 0.7s;
+    margin-top: 1%;
+    display: flex;
+}
+#phona{
+    color: white;
+    width: 35%;
+    height: min-content;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.7s;
+    margin-left: .5%;
+}
+#phona:hover{
+    color: rgb(0, 0, 0);
+   
+}
+#phone:hover{
+    width: 100%;
+}
+#flogo img{
+    width:98%;
+    transition: 0.7s;
+}
+#flogo{
+    display: inline-flexbox;
+    align-items: center;
+    transition: 0.7s;
+    width: 30%;
+}
+#flogo img:hover{
+    width: 100%;
+    
+}
+#vk img{
+    width: 100%;
+    margin-right: 20%;
+    transition: 0.7s;
+}
+#vk img:hover{
+    width: 105%;
+}
+#vk{
+    width: 10%;
+    height: min-content;
+    margin-right: .8%;
+}
+#sp1{
+    width: 80%;
 }
