@@ -38,52 +38,6 @@ header img{
 #topl a:link{
     color: white;
 }
-#vhod{
-    width: 15%;
-    height: 10%;
-    margin: 1%;
-    margin-top: 3%;
-    font-size: 32px;
-    text-decoration: none;
-    border: 0px solid white ;
-    border-radius: 10px;
-    background-color: rgb(197, 197, 197);
-    color: black;
-    text-align: center;
-    transition: all .5s;
-    z-index: 10;
-    display: line;
-}
-#registr{
-    width: 15%;
-    height: 10%;
-    margin: 1%;
-    margin-top: 3%;
-    font-size: 32px;
-    text-decoration: none;
-    border: 0px solid white ;
-    border-radius: 10px;
-    background-color: rgb(197, 197, 197);
-    color: black;
-    text-align: center;
-    transition: all .5s;
-    z-index: 10;
-    display: line;
-}
-#registr:hover{
-    background-color: rgb(76, 97, 71);
-    color: white;
-    width: 20%;
-    z-index: 10;
-    display: line;
-}
-#vhod:hover{
-    background-color: rgb(76, 97, 71);
-    color: white;
-    width: 20%;
-    z-index: 10;
-    display: line;
-}
 #slogan{
     background-color: rgb(51, 69, 49);
     color: white;
