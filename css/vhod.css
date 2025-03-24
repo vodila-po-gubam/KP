@@ -11,7 +11,7 @@ header{
 }
 header img{
     width: 15%;
-    margin-left: 24%;
+    margin-left: 25%;
     margin-top: 2%;
     display:line;
     transition: 0.7s;
@@ -19,7 +19,6 @@ header img{
 #tlogo img:hover{
     width: 16%;
 }
-
 #topl a{
     display:line;
     background-color: rgb(123, 156, 115);
@@ -38,151 +37,83 @@ header img{
 #topl a:link{
     color: white;
 }
-#lk{
-    width: 20%;
-    padding-top: 5%;
-   
-}
-#lk a{
-    font-size: 36px;
-    color:  white;
+#registr{
+    width: 15%;
+    height: 10%;
+    margin: 1%;
+    margin-right: 4%;
+    margin-top: 3%;
+    font-size: 32px;
     text-decoration: none;
-    transition: 0.7s;
     border: 0px solid white ;
     border-radius: 10px;
     background-color: rgb(197, 197, 197);
     color: black;
     text-align: center;
-    padding: 1%;
+    transition: all .5s;
+    z-index: 10;
+    display: line;
 }
-#lk a:hover{
+#registr:hover{
     background-color: rgb(76, 97, 71);
     color: white;
+    width: 20%;
+    z-index: 10;
+    display: line;
 }
-#slogan{
-    background-color: rgb(51, 69, 49);
+main{
+    background-color: rgb(76, 97, 71);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#ob{
+    width: 40%;
+    margin-left: 30%;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+#ob h1{
     color: white;
     text-align: center;
-    font-size: 32px;
-    border-bottom: 5px solid rgb(37, 37, 37);
+    font-size: 42px;
+    border-bottom: 1px solid rgb(37, 37, 37);
+    width: 90%;
+    margin-left: 5%;
 }
-#slogan h2{
-    margin-bottom: 1%;
+#im{
+    background-color: rgb(37, 37, 37);
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 36px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
 }
-#opis{
+#im::placeholder{
+    color: rgb(180, 180, 180);
+}
+#ob button{
+    width: 52%;
+    margin-top: 4%;
+    margin-left: 25%;
+    border-radius: 10px;
     background-color: rgb(123, 156, 115);
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    border-bottom: 5px solid rgb(37, 37, 37);
+    border: 3px solid white;
+    font-size: 36px;
+    transition: 0.7s;
 }
-#opis h2{
-    width: 95%;
-    margin-left: 1.5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    
-}
-#nasi{
-    background-color: rgb(51, 69, 49);
-    font-size: 32px;
-    color: white;
-    text-align: center;
-    border-bottom: 5px solid rgb(37, 37, 37);
-}   
-#nomera{
-    background-color: rgb(123, 156, 115);
-    
-    padding: 1%;
-    width: 98%;
-}
-#nomera2{
-    
-    margin-left: 1%;
-}
-#nomera a{
-    display: block;
-    color: white;
+#ob a{
     text-decoration: none;
-    text-align: center;
-  
+    color:  white;
+    display: block;
 }
-#nom1{
-    width: 15%;
-    border: 5px solid white;
-    border-radius: 10px;
-    background-color: rgb(51, 69, 49);
-    transition: all 0.2s;
-    display:inline-flex;
-    margin-left: 1%;
-}
-#nom1 img{
-    border-radius: 5px;
-}
-
-#nom1 p{
-    font-size: 26px;
-}
-#nom1:hover{
-    border: 8px solid rgb(177, 177, 177);
-}
-#nom2{
-    width: 15%;
-    border: 5px solid white;
-    border-radius: 10px;
-    background-color: rgb(51, 69, 49);
-    transition: all 0.2s;
-    display:inline-flex;
-    margin-left: 4%;
-}
-#nom2 img{
-    border-radius: 5px;
-}
-
-#nom2 p{
-    font-size: 26px;
-}
-#nom2:hover{
-    border: 8px solid rgb(177, 177, 177);
-}
-#nom3{
-    width: 15%;
-    border: 5px solid white;
-    border-radius: 10px;
-    background-color: rgb(51, 69, 49);
-    transition: all 0.2s;
-    display:inline-flex;
-    margin-left: 1%;
-    margin-top: 1%;
-}
-#nom3 img{
-    border-radius: 5px;
-}
-
-#nom3 p{
-    font-size: 26px;
-}
-#nom3:hover{
-    border: 8px solid rgb(177, 177, 177);
-}
-#nom4{
-    width: 15%;
-    border: 5px solid white;
-    border-radius: 10px;
-    background-color: rgb(51, 69, 49);
-    transition: all 0.2s;
-    display:inline-flex;
-    margin-left: 4%;
-}
-#nom4 img{
-    border-radius: 5px;
-}
-
-#nom4 p{
-    font-size: 26px;
-}
-#nom4:hover{
-    border: 8px solid rgb(177, 177, 177);
+#ob button:hover{
+    background-color: rgb(93, 119, 87);
+    color: rgb(180, 180, 180);
+    width: 53%;
+    margin-left: 25%;
 }
 footer{
     background-color: rgb(51, 69, 49);
