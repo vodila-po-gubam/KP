@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\bron.css">
+    <link rel="icon" type="img/png" sizes="32x32" href="img\ico.ico">
+    <meta http-equiv="refresh" content="3">
+    <title>Бронирование</title>
+</head>
+<body>
+    <header>
+        <div id="topl">
+            <a href="index.html">Эдельвейс</a> 
+            <a href="index.html" id="tlogo"><img src="img\logo.png"></a>
+        </div>     
+     <a href="" id="vhod">Вход</a>
+     <a href="registr.html" id="registr">Регистрация</a>
+    </header>
+    <main>
+            <div id="bron">
+                <h1>Бронирование</h1>
+                <div id="dati">
+                    <div id="date1">
+                        <p>Дата въезда:</p>
+                        <input id="dater" type="date" required>
+                    </div>
+                
+                    <div id="date2">
+                        <p>Дата выселения:</p>
+                        <input id="datev" type="date" required>
+                    </div>
+                </div>    
+                <input id="chel" type="text" min="1" max="3" list="dl1" placeholder="кол-во человек" required>
+                    <datalist id="dl1">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                    </datalist>
+                <input id="nomc" type="text" min="1" max="10" placeholder="номер комнаты" required list="dl">
+                <datalist id="dl">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+                <div id="opts">
+                    <div id="first">
+                        <p>Завтрак</p>
+                        <input type="checkbox"> 
+                    </div>
+                    <div id="sec">
+                        <p>Обед</p>
+                        <input type="checkbox"> 
+                    </div>
+                    <div id="thre">
+                        <p>Ужин</p>
+                        <input type="checkbox"> 
+                    </div>
+                    <div id="four">
+                        <p>wi-fi</p>
+                        <input type="checkbox"> 
+                    </div>
+                    <div id="five">
+                        <p>пропуск в бассейн</p>
+                        <input type="checkbox"> 
+                    </div>
+                    <div id="six">
+                        <p>Детская кровать</p>
+                        <input type="checkbox"> 
+                    </div>
+                </div>
+                <div id="btn">
+                    <a href="index.html" id="bbron">Забронировать</a>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div id="fp">
+            <a href="https://yandex.ru/maps/org/gora_chyortov_palets/15255176473/?ll=86.023143%2C51.868379&mode=search&sctx=ZAAAAAgBEAAaKAoSCZPF%2FUemPFVAEa4q%2B64IPkxAEhIJ2UP7WMFv1T8Rut3LfXIU0D8iBgABAgMEBSgKOABA1YIGSAFqAnJ1nQHNzMw9oAEAqAEAvQFn8RwewgEVmYqe6jjB2dXBWe3ansL4Bcbs9ZMEggIb0LDQu9GC0LDQudGB0LrQuNC1INCz0L7RgNGLigIAkgIAmgIMZGVza3RvcC1tYXBz&sll=85.922532%2C51.868379&source=serp_navig&sspn=0.711591%2C0.286757&text=алтайские%20горы&z=11.39" id="fp1"><img src="img\place.png">Алтайские горы</a>
+            <div></div>
+            <a href="https://t.me/Solek1488" id="tg"><img src="img\trleg.png"></a>
+            </div>
+            <div id="mail">
+                <a href="mailto:GorniyOtel@gmail.com" id="maile"><img src="img\mail.png">GorniyOtel@gmail.com</a>
+                <div></div>
+                <a href="https://ok.ru/feed" id="odn"><img src="img\Odnoklasniki.png"></a>
+            </div>
+            <div id="phone">
+                <a href="tel:+7(909)352-13-37" id="phona"><img src="img\phone.png">+7(909)352-13-37</a>
+                <div id="sp1"></div>
+                <a href="#topl" id="flogo"><img src="img\logo.png"></a> 
+                <div id="sp2"></div>
+                <a href="https://vk.com/solek1337" id="vk"><img src="img\vki.png"></a>  
+            </div>
+    </footer>
+</body>
+</html>
